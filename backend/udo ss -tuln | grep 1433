@@ -1,0 +1,22 @@
+[0;1;32m●[0m mssql-server.service - Microsoft SQL Server Database Engine
+     Loaded: loaded (/lib/systemd/system/mssql-server.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sat 2024-07-06 12:30:12 CST; 4h 3min ago
+       Docs: https://docs.microsoft.com/en-us/sql/linux
+   Main PID: 47902 (sqlservr)
+      Tasks: 209
+     Memory: 814.5M
+        CPU: 5min 9.431s
+     CGroup: /system.slice/mssql-server.service
+             ├─47902 /opt/mssql/bin/sqlservr
+             └─47929 /opt/mssql/bin/sqlservr
+
+jul 06 15:55:16 royner39 sqlservr[47929]: [113B blob data]
+jul 06 15:55:16 royner39 sqlservr[47929]: [180B blob data]
+jul 06 15:55:16 royner39 sqlservr[47929]: [112B blob data]
+jul 06 15:55:16 royner39 sqlservr[47929]: [113B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [228B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [69B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [113B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [145B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [112B blob data]
+jul 06 15:55:34 royner39 sqlservr[47929]: [113B blob data]
